@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    body {
+        height: 100vh;
+        display: flex;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        background-color: #f0f0f0;
+        font-family: 'Arial', sans-serif;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+    .modal{
+        
+        background-color: white;
+        padding: 40px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px  black;
+        text-align: center;
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    
+    .icon {
+        font-size: 55px;
+    }
+    
+    h1{
+        font-size: 24px;
+        color: #333;
+        margin-bottom: 15px;
+    }
+    
+    p{
+        font-size: 16px;
+        color:#555;
+    }
+    
+    .highlight {
+        font-weight: bold;
+        color: orange;
+        margin-top: 10px;
+    }
+    
+    • gift-button {
+        background-color: #001f4c;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        margin-top: 20px;   
+    }
+    
+    .gift-button:hover{
+        background-color: rgb(66, 66, 159);
+    }
+    
+    .close{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        font-size: 24px;
+        cursor: pointer;
+    }
+    button{
+        background-color: #001f4c;
+        color: azure;
+        font-size: 9px;
+        width: 130px;
+        height: 20px;
+    }
+    p{
+        text-align: center;
+    }
